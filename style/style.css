@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Azeret Mono", monospace;
+}
+
+/* Hero section stles  */
+#hero{
+    width: 100%;
+    height: 70%;
+    background-image: url(../images/Hero-bg.png);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.hero-content-title h1 {
+    margin: 20px 0;
+}
+.hero-image {
+    margin-top: 26px;
+}
+
+.hero-content-btn {
+    border: 1.5px solid rgb(13, 19, 33);
+    outline: none;
+    width: 208px;
+    height: 66px;
+    background-color: rgb(13, 19, 33);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 21px 24px;
+    border-radius: 8px;
+    margin: 20px 0px;
+    transition: all .2s ease;
+}
+
+.hero-content-btn:hover{
+    border: 1.5px solid coral;
+    outline: none;
+    background: coral;
+    transform: scale(1.03);
+}
