@@ -205,7 +205,6 @@ html {
 /* ================ inspiration section container styles ===============*/
 #my-inspiration {
     width: 1140px;
-    height: 843px;
     margin: 0 auto;
 }
 .cards-container {
@@ -237,7 +236,7 @@ html {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
-    margin: 48px 0px;
+    margin: 40px 0px;
 }
 .inspiration-section-youtube-content iframe {
     border-radius: 16px;
@@ -248,8 +247,9 @@ html {
 /*=============== cards section styles =========*/
 #cards-section {
     width: 1140px;
-    height: 460px;
+    /* height: 460px; */
     margin: 0 auto;
+    margin-top: 48px;
 }
 .cards-section-content {
     display: flex;
@@ -257,6 +257,8 @@ html {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    margin-bottom: 48px;
+    margin-top: 30px;
 }
 .card-1-container {
     width: 364px;
@@ -277,8 +279,12 @@ html {
     opacity: 0.7;
     margin: 8px 0px;
 }
+.learn-more a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
 .learn-more {
-    font-weight: 700px;
+    font-weight: 700;
     text-decoration: underline;
     margin: 24px 0px;
 }
