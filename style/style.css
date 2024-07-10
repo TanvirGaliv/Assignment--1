@@ -239,6 +239,8 @@ html {
 .inspiration-section-youtube-content iframe {
     border-radius: 16px;
 }
+
+
  
 /*=============== cards section styles =========*/
 #cards-section {
@@ -246,18 +248,12 @@ html {
     height: 460px;
     margin: 0 auto;
 }
-.cards-container {
-    margin: 111px 0px;
-}
-
 .cards-section-content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    margin: 48px 0px;
-
 }
 .card-1-container {
     width: 364px;
@@ -298,4 +294,75 @@ html {
     background: rgba(255, 223, 0, 0.05);
     margin: 0px 24px;
     padding: 40px;
+}
+
+/* support container styles  */
+.supprt-container {
+    width: 1140px;
+    height: 313px;
+    margin: 48px 0px;
+    padding: 64px 48px;
+    background-image: linear-gradient(
+        0deg,
+        rgb(16, 16, 16) 1.5%,
+        rgba(16, 16, 16, 0) 120%
+      ), url(../images/bg-image.jpg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.2); 
+    border-radius: 16px;
+    margin: 0 auto;
+    color: #fff;
+    top: 120px;
+}
+.support-text-content {
+    width: 730px;
+    height: 104px;
+    text-align: center;
+    margin: 0 auto;
+}
+.support-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+    
+}
+.support-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    opacity: 0.7;
+    padding: 20px;
+}
+.support-btn-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px;
+}
+
+.btn-field input[type="text"]  {
+    width: 548px;
+    height: 57px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px;
+
+}
+.submit-field input[type="submit"]{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    padding: 17px 20px;
+    margin: 9px 16px;
+    font-weight: 800;
+    font-size: 20px;
 }
