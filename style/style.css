@@ -236,8 +236,10 @@ html {
     padding: 32px;
     margin: 48px 0px;
 }
-
-
+.inspiration-section-youtube-content iframe {
+    border-radius: 16px;
+}
+ 
 /*=============== cards section styles =========*/
 #cards-section {
     width: 1140px;
