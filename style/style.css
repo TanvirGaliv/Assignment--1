@@ -28,6 +28,13 @@ html {
     align-items: center;
 }
 
+.hero-bg {
+    width: 1440px;
+    height: 652px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
 .hero-content {
     max-width: 50%;
     text-align: center;
@@ -44,7 +51,14 @@ html {
 }
 
 .hero-content-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
     margin: 20px 0;
+}
+.hero-content-title p{
+    font-size: 16px;
+    font-weight:400;
 }
 .hero-image {
     margin-top: 26px;
@@ -62,7 +76,7 @@ html {
     text-align: center;
     padding: 21px 24px;
     border-radius: 8px;
-    margin: 20px 0px;
+    margin-top: 30px;
     transition: all .2s ease;
 }
 
@@ -72,3 +86,115 @@ html {
     background: coral;
     transform: scale(1.03);
 }
+
+/* development section styles here */
+
+#development-section {
+    width: 1140px;
+    height: 1395px;
+    left: 148px;
+    right: 152px;
+    top:857px;
+    margin: 0 auto;
+    padding: 80px 97px;
+}
+
+.development-title-content {
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.development-title-content h1 {
+    font-size: 32px;
+    font-weight: 800px;
+    line-height: 37px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.development-title-content p {
+    text-align: center;
+    line-height: 24px;
+}
+
+.development-layer-1-container {
+    width: 946px;
+    height: 336px;
+    display: flex;
+    gap: 98.83px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+    margin: 32px 0;
+}
+
+.development-layer-1-left-content {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 10px;
+}
+
+.development-layer-1-left-content h2,
+.development-layer-2-right-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.development-layer-1-left-content p,
+.development-layer-2-right-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.learn-more-btn {
+    width: 160px;
+    height: 48px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.development-layer-1-right-content {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.development-layer-2-container {
+    width: 946px;
+    height: 336px;
+    display: flex;
+    gap: 48px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+    margin: 32px 0;
+}
+
+.development-layer-2-left-content {
+    width: 240px;
+    height: 240px;
+}
+
+.development-layer-2-right-content {
+    width: 477px;
+    height: 140px;
+}
+
