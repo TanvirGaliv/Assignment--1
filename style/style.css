@@ -245,22 +245,57 @@ html {
     width: 1140px;
     height: 460px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 .cards-container {
     margin: 111px 0px;
 }
 
-/* .cards-section-title-content {
-    width: 852px;
-    height: 113px;
+.cards-section-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    margin: 0  auto;
-} */
+    gap: 10px;
+    margin: 48px 0px;
 
-.cards-section-title-content p {
+}
+.card-1-container {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+.card-1-container img {
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+}
+.card-1-container h2 {
+    font-size: 24px;
+    font-weight: 800px;
+    margin: 8px 0px;
+}
+.card-1-container p {
+    opacity: 0.7;
+    margin: 8px 0px;
+}
+.learn-more {
+    font-weight: 700px;
+    text-decoration: underline;
+    margin: 24px 0px;
+}
+#card-1 {
+    background: rgba(255, 76, 30,  0.05);
+    padding: 40px;
+    margin: 0px 24px;
+}
+#card-2 {
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
 
+#card-3 {
+    background: rgba(255, 223, 0, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
 }
